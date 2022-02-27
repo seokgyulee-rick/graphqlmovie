@@ -1,0 +1,23 @@
+{
+  "name": "graphqlmovie",
+  "version": "1.0.0",
+  "description": "Movie DB with graphQL",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "https://github.com/seokgyulee-rick/graphqlmovie.git",
+  "author": "Rick",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^3.2.0",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11"
+  }
+}
